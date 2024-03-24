@@ -51,10 +51,10 @@ scissorsButton.addEventListener('click', function(event){
 
 
 
+//display round result
 const roundDisplay = document.querySelector("#round");
-roundDisplay.innerHTML = "Choose an option and see if you WIN!";
+roundDisplay.innerHTML = "Choose an option and see if you win!";
 
-//user choice function
 let roundResult;
 const compare = function(choice1, choice2) {
     if(choice1 == choice2) {
@@ -81,7 +81,7 @@ const compare = function(choice1, choice2) {
     }
 }
 
-//display round result
+
 
 
 
